@@ -1,0 +1,6 @@
+{
+  "name": "Sacombank AI Knowledge Assistant",
+  "description": "Trợ lý tri thức AI hỗ trợ giao dịch viên cập nhật văn bản, quy trình và nghiệp vụ ngân hàng Sacombank Chi nhánh Gò Vấp",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
