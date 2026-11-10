@@ -4,6 +4,14 @@ import path from 'path';
 import { defineConfig, Plugin } from 'vite';
 import { generateGroundedResponse } from './src/server/geminiHandler';
 
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react()],
+  base: '/AI-Banking-Knowledge-Assistant-/', // Thêm dòng này đúng với tên repo của bạn
+})
+
 function apiMiddlewarePlugin(): Plugin {
   return {
     name: 'api-middleware',
